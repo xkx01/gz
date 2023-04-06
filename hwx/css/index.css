@@ -1,0 +1,995 @@
+html {
+  font-size: calc(100vw / 720 * 100);
+}
+body {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+.rise {
+  animation: 3000ms forwards;
+  transform: translateY(10rem);
+}
+.nav {
+  width: 100%;
+  height: 25.6rem;
+  background-color: aqua;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: fixed;
+  bottom: 0rem;
+  overflow: hidden;
+  animation: 3000ms forwards;
+}
+.nav .roof {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.nav .roof .pb {
+  width: 2rem;
+  height: 0.6rem;
+  border: 0.01rem solid aliceblue;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .roof .pb img {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+.nav .roof .pb p {
+  font-size: 0.25rem;
+  color: aliceblue;
+}
+.nav .roof .prize {
+  position: absolute;
+  top: 11.5rem;
+  left: 0.7rem;
+}
+.nav .roof .share {
+  position: absolute;
+  top: 11.5rem;
+  right: 0.7rem;
+}
+.nav .roof .bill {
+  position: absolute;
+  top: 0.72rem;
+  right: 0.6rem;
+  animation: 2000ms forwards;
+  transform: scale(0);
+}
+.nav .roof .bill p {
+  margin-left: 0.2rem;
+}
+.nav .roof .acq {
+  width: 5rem;
+  height: 1.7rem;
+  position: absolute;
+  top: 0.87rem;
+  left: 1.3rem;
+  animation: 2000ms forwards;
+  transform: scale(0);
+}
+.nav .roof .acq p {
+  width: 3.4rem;
+  font-size: 0.3rem;
+  color: aliceblue;
+  margin: 0;
+}
+.nav .roof .acq p:nth-of-type(2) {
+  font-size: 0.27rem;
+  margin-top: 0.05rem;
+}
+.nav .roof .acq p:nth-of-type(2) span {
+  font-size: 0.4rem;
+}
+.nav .roof .acq p:nth-of-type(3) {
+  width: 100%;
+  font-size: 0.2rem;
+  margin-top: 0.4rem;
+}
+.nav .roof .celestial1 {
+  width: 1.65rem;
+  height: 1.64rem;
+  position: absolute;
+  top: 6.5rem;
+  left: -2rem;
+  animation: 2000ms forwards;
+  transform: rotate(-90deg);
+}
+.nav .roof .celestial1 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .roof .celestial1 .cel {
+  width: 1.86rem;
+  height: 0.46rem;
+  opacity: 0.3;
+  background-color: black;
+  border: 0.05rem solid #cfcfcf;
+  border-radius: 0.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -0.15rem;
+  top: -1.7rem;
+}
+.nav .roof .celestial1 .cel p {
+  color: aliceblue;
+  font-size: 0.25rem;
+  margin: 0;
+}
+.nav .roof .celestial1 .chicken1 {
+  width: 0.7rem;
+  height: 1rem;
+  position: relative;
+  top: -3.85rem;
+  left: 0.5rem;
+}
+.nav .roof .celestial1 .chicken1 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .roof .celestial2 {
+  width: 2.1rem;
+  height: 2.08rem;
+  position: absolute;
+  top: 4.7rem;
+  left: 2.58rem;
+  animation: 2000ms forwards;
+  transform: scale(0);
+}
+.nav .roof .celestial2 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .roof .celestial2 .cel {
+  width: 1.86rem;
+  height: 0.46rem;
+  opacity: 0.3;
+  background-color: black;
+  border: 0.05rem solid #cfcfcf;
+  border-radius: 0.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0.1rem;
+  top: -2.1rem;
+}
+.nav .roof .celestial2 .cel p {
+  color: aliceblue;
+  font-size: 0.25rem;
+  margin: 0;
+}
+.nav .roof .celestial2 .chicken2 {
+  width: 0.7rem;
+  height: 1rem;
+  position: relative;
+  top: -4.1rem;
+  left: 0.7rem;
+}
+.nav .roof .celestial2 .chicken2 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .roof .celestial3 {
+  width: 1.82rem;
+  height: 1.82rem;
+  position: absolute;
+  top: 6rem;
+  right: -2rem;
+  animation: 2000ms forwards;
+  transform: rotate(90deg);
+}
+.nav .roof .celestial3 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .roof .celestial3 .cel {
+  width: 1.86rem;
+  height: 0.46rem;
+  opacity: 0.3;
+  background-color: black;
+  border: 0.05rem solid #cfcfcf;
+  border-radius: 0.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -0.07rem;
+  top: -1.8rem;
+}
+.nav .roof .celestial3 .cel p {
+  color: aliceblue;
+  font-size: 0.25rem;
+  margin: 0;
+}
+.nav .roof .celestial3 .chicken3 {
+  width: 0.7rem;
+  height: 1rem;
+  position: relative;
+  top: -3.85rem;
+  left: 0.55rem;
+}
+.nav .roof .celestial3 .chicken3 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .big {
+  width: 100%;
+  height: 13.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav .big .meg {
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  bottom: 4.5rem;
+  animation: 1000ms linear forwards;
+  z-index: 58;
+}
+.nav .big .meg .minecraft {
+  width: 1.8rem;
+  height: 1.5rem;
+  margin: 0 auto;
+  z-index: 58;
+  opacity: 0;
+  display: none;
+  transition: 1000ms;
+}
+.nav .big .meg .minecraft p {
+  font-size: 0.3rem;
+  color: #17b1b1;
+}
+.nav .big .meg .arr {
+  width: 0.64rem;
+  margin: 0 auto;
+  z-index: 58;
+  line-height: 0.1rem;
+}
+.nav .big .meg .arr .ary {
+  width: 0.64rem;
+  height: 0.33rem;
+  visibility: hidden;
+  transition: 500ms;
+}
+.nav .big .vid {
+  display: none;
+}
+.nav .big .z01 {
+  width: 2rem;
+  height: 0.58rem;
+  position: absolute;
+  bottom: 0;
+  left: 2.6rem;
+  z-index: 60;
+  animation: one 2000ms forwards;
+  transform: translateY(1rem);
+}
+.nav .big .begin .z02 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: -3.178rem;
+  left: 2.61rem;
+  z-index: 58;
+}
+.nav .big .begin .z03 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: -2.896rem;
+  left: 2.123rem;
+  z-index: 56;
+}
+.nav .big .begin .z04 {
+  width: 2rem;
+  height: 5.34rem;
+  position: absolute;
+  bottom: -3.334rem;
+  left: 1.63rem;
+  z-index: 54;
+}
+.nav .big .begin .z05 {
+  width: 1.76rem;
+  height: 3.02rem;
+  position: absolute;
+  bottom: -0.3rem;
+  left: 1.387rem;
+  z-index: 52;
+}
+.nav .big .begin .z06 {
+  width: 1.76rem;
+  height: 3.02rem;
+  position: absolute;
+  bottom: 0.413rem;
+  left: 0.147rem;
+  z-index: 50;
+}
+.nav .big .begin .z07 {
+  width: 1rem;
+  height: 4.21rem;
+  position: absolute;
+  bottom: -0.06rem;
+  left: 0.9rem;
+  z-index: 48;
+}
+.nav .big .begin .z08 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: 0.69rem;
+  left: 1.3999rem;
+  z-index: 47;
+}
+.nav .big .pigeon {
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 0.22rem;
+  left: 3.24rem;
+  z-index: 61;
+  animation: 3500ms linear forwards;
+}
+.nav .big .pigeon img {
+  width: 100%;
+  height: 100%;
+}
+.nav .big .ge {
+  animation: one 2000ms forwards;
+  transform: translateY(1rem);
+}
+.nav .big .pig {
+  display: none;
+  width: 0.7rem;
+  height: 1rem;
+  position: absolute;
+  bottom: 3.06rem;
+  left: 3.23rem;
+  z-index: 61;
+  animation: cl 3000ms forwards;
+}
+.nav .big .pig img {
+  width: 100%;
+  height: 100%;
+}
+.nav .big .diff .z09 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 1.42rem;
+  left: 0.899rem;
+  z-index: 46;
+}
+.nav .big .diff .z10 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 1.843rem;
+  left: 1.638rem;
+  z-index: 45;
+}
+.nav .big .diff .z11 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 2.272rem;
+  left: 2.373rem;
+  z-index: 44;
+}
+.nav .big .diff .z12 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: 2.6993rem;
+  left: 3.11rem;
+  z-index: 43;
+}
+.nav .big .diff .z13 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: 2.686rem;
+  left: 3.864rem;
+  z-index: 42;
+}
+.nav .big .par .z14 {
+  width: 1rem;
+  height: 1.45rem;
+  position: absolute;
+  bottom: 4.69rem;
+  left: 4.36rem;
+  z-index: 42;
+}
+.nav .big .par .z15 {
+  width: 2rem;
+  height: 5.34rem;
+  position: absolute;
+  bottom: -0.06rem;
+  left: 3.86rem;
+  z-index: 43;
+}
+.nav .big .par .z16 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: 0.389rem;
+  left: 4.339rem;
+  z-index: 44;
+}
+.nav .big .par .z17 {
+  width: 1rem;
+  height: 4.04rem;
+  position: absolute;
+  bottom: 0.106976rem;
+  left: 4.827rem;
+  z-index: 45;
+}
+.nav .big .par .z18 {
+  width: 1rem;
+  height: 3.75rem;
+  position: absolute;
+  bottom: 0.12rem;
+  left: 5.326rem;
+  z-index: 46;
+}
+.nav .big .last .z19 {
+  width: 0.76rem;
+  height: 0.8rem;
+  position: absolute;
+  bottom: 2.776rem;
+  left: 5.08rem;
+  z-index: 47;
+}
+.nav .big .last .z20 {
+  width: 1.26rem;
+  height: 3.45rem;
+  position: absolute;
+  bottom: -0.316rem;
+  left: 4.3364rem;
+  z-index: 48;
+}
+.nav .big .last .z21 {
+  width: 1.26rem;
+  height: 3.02rem;
+  position: absolute;
+  bottom: 0.125rem;
+  right: 2.347rem;
+  z-index: 49;
+}
+.nav .big .last .z22 {
+  width: 1rem;
+  height: 5.27rem;
+  position: absolute;
+  bottom: -1.85rem;
+  right: 3.1rem;
+  z-index: 48;
+  animation: 3000ms forwards;
+}
+.nav .big .money {
+  display: none;
+}
+.nav .big .money .z23 {
+  width: 1.26rem;
+  height: 4.21rem;
+  position: absolute;
+  bottom: 0.22rem;
+  right: 0.129rem;
+  z-index: 45;
+  animation: tp 2000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .money .z32 {
+  width: 0.6rem;
+  height: 0.84rem;
+  position: absolute;
+  bottom: 4.22rem;
+  right: 0.55rem;
+  z-index: 45;
+  animation: tp 2000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .build .z24 {
+  width: 1rem;
+  height: 3.2rem;
+  position: absolute;
+  bottom: -0.6rem;
+  right: -0.33rem;
+  z-index: 45;
+  animation: 1000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .build .z25 {
+  width: 1.5rem;
+  height: 6.34rem;
+  position: absolute;
+  bottom: 1.44rem;
+  right: 0.16rem;
+  z-index: 41;
+  animation: 1000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .build .z28 {
+  width: 2.5rem;
+  height: 5.71rem;
+  position: absolute;
+  bottom: 2.05rem;
+  left: 1.16rem;
+  z-index: 40;
+  animation: 1000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .build .z29 {
+  width: 1.63rem;
+  height: 4.61rem;
+  position: absolute;
+  bottom: 0.66rem;
+  left: 2.16rem;
+  z-index: 46;
+  animation: 1000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .build .z29 img {
+  width: 100%;
+  height: 100%;
+}
+.nav .big .phone {
+  display: none;
+}
+.nav .big .phone .z27 {
+  width: 1rem;
+  height: 3.46rem;
+  position: absolute;
+  bottom: 1.844rem;
+  left: 0.41rem;
+  z-index: 41;
+  animation: tp 2000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .phone .z30 {
+  width: 0.68rem;
+  height: 0.66rem;
+  position: absolute;
+  bottom: 5.26rem;
+  left: 0.6rem;
+  z-index: 45;
+  animation: tp 2000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .wift {
+  display: none;
+}
+.nav .big .wift .z26 {
+  width: 1rem;
+  height: 3.46rem;
+  position: absolute;
+  bottom: 3.55rem;
+  right: 1.84rem;
+  z-index: 41;
+  animation: tp 2000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .wift .z31 {
+  width: 0.82rem;
+  height: 0.73rem;
+  position: absolute;
+  bottom: 6.86rem;
+  right: 1.9rem;
+  z-index: 45;
+  animation: tp 2000ms forwards;
+  transform: translateY(10rem);
+}
+.nav .big .iris1 {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: ir 1800ms linear infinite;
+}
+.nav .big .pos {
+  display: none;
+  position: absolute;
+  bottom: 3.78rem;
+  left: 1.52rem;
+  z-index: 60;
+}
+.nav .big .pos1 {
+  display: none;
+  position: absolute;
+  bottom: 5.77rem;
+  right: 2.45rem;
+  z-index: 60;
+}
+.nav .big .pos2 {
+  display: none;
+  position: absolute;
+  bottom: 3.23rem;
+  right: 1rem;
+  z-index: 60;
+}
+.nav .big .pos3 {
+  display: none;
+  position: absolute;
+  bottom: 2.8rem;
+  right: 3.24rem;
+  z-index: 60;
+}
+.z33 {
+  width: 100%;
+  height: 1.31rem;
+  position: absolute;
+  bottom: 6.7rem;
+  z-index: 39;
+  opacity: 0;
+  user-select: none;
+}
+.z34 {
+  width: 100%;
+  height: 2.4rem;
+  position: absolute;
+  bottom: 0rem;
+  z-index: 50;
+  opacity: 0;
+}
+.z35 {
+  width: 100%;
+  height: 4.8rem;
+  position: absolute;
+  bottom: 3.2rem;
+  z-index: 39;
+  opacity: 0;
+}
+.z36 {
+  width: 100%;
+  height: 5.74rem;
+  position: absolute;
+  bottom: 0rem;
+  z-index: 39;
+  opacity: 0;
+}
+.content {
+  width: 100%;
+  height: 4.65rem;
+  position: absolute;
+  bottom: 8rem;
+  background-image: url(../img/top.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  opacity: 0;
+}
+.content .step {
+  width: 4.24rem;
+  height: 1.28rem;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.content .step img {
+  width: 100%;
+  height: 100%;
+}
+.content .become {
+  width: 5rem;
+  margin: 0.8rem auto;
+}
+.content .become p {
+  font-size: 0.35rem;
+  margin: 0;
+  color: aliceblue;
+}
+.content .become p:nth-of-type(3) {
+  float: right;
+  margin-top: 0.5rem;
+  font-size: 0.3rem;
+}
+.content .grade {
+  width: 5rem;
+  margin: 0.8rem auto;
+}
+.content .grade p {
+  font-size: 0.3rem;
+  font-weight: bold;
+  margin: 0;
+  color: aliceblue;
+}
+.content .grade p:nth-of-type(3) {
+  float: right;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  font-size: 0.28rem;
+}
+.content .busin {
+  width: 5rem;
+  margin: 0.8rem auto;
+}
+.content .busin p {
+  font-size: 0.3rem;
+  font-weight: bold;
+  margin: 0;
+  color: aliceblue;
+  line-height: 0.5rem;
+}
+.content .busin p:nth-of-type(4) {
+  font-weight: normal;
+  font-size: 0.28rem;
+}
+.content .exchange {
+  width: 5rem;
+  margin: 0.8rem auto;
+}
+.content .exchange p {
+  font-size: 0.3rem;
+  font-weight: bold;
+  margin: 0;
+  color: aliceblue;
+}
+.content .exchange p:nth-of-type(3) {
+  font-weight: normal;
+  margin-top: 0.5rem;
+  font-size: 0.28rem;
+}
+.a {
+  width: 0.68rem;
+  height: 0.66rem;
+  position: absolute;
+  bottom: 5.26rem;
+  left: 0.6rem;
+  z-index: 45;
+  animation: ph 2000ms infinite;
+}
+.b {
+  width: 0.82rem;
+  height: 0.73rem;
+  position: absolute;
+  bottom: 6.86rem;
+  right: 1.9rem;
+  z-index: 45;
+  animation: ph 2000ms infinite;
+}
+.c {
+  width: 0.6rem;
+  height: 0.84rem;
+  position: absolute;
+  bottom: 4.22rem;
+  right: 0.55rem;
+  z-index: 45;
+  animation: ph 2000ms infinite;
+}
+@keyframes gz1 {
+  0% {
+    bottom: 0.22rem;
+    left: 3.24rem;
+  }
+  20% {
+    bottom: 1.07rem;
+    left: 1.81rem;
+  }
+  40% {
+    bottom: 1.64rem;
+    left: 2.74rem;
+  }
+  80% {
+    bottom: 2.9rem;
+    left: 0.59rem;
+  }
+  100% {
+    bottom: 4.06rem;
+    left: 1.55rem;
+  }
+}
+@keyframes gz11 {
+  0% {
+    bottom: 4.06rem;
+    left: 1.55rem;
+  }
+  100% {
+    bottom: 4.06rem;
+    left: 1.55rem;
+  }
+}
+@keyframes gz2 {
+  0% {
+    bottom: 4.06rem;
+    left: 1.55rem;
+  }
+  10% {
+    bottom: 4.38rem;
+    left: 1.06rem;
+  }
+  100% {
+    bottom: 6.09rem;
+    left: 4rem;
+  }
+}
+@keyframes gz22 {
+  0% {
+    bottom: 6.09rem;
+    left: 4rem;
+  }
+  100% {
+    bottom: 6.09rem;
+    left: 4rem;
+  }
+}
+@keyframes gz3 {
+  0% {
+    bottom: 6.09rem;
+    left: 4rem;
+  }
+  30% {
+    bottom: 4.92rem;
+    left: 4.95rem;
+  }
+  60% {
+    bottom: 4.36rem;
+    left: 4.02rem;
+  }
+  100% {
+    bottom: 3.52rem;
+    left: 5.46rem;
+  }
+}
+@keyframes gz33 {
+  0% {
+    bottom: 3.52rem;
+    left: 5.46rem;
+  }
+  100% {
+    bottom: 3.52rem;
+    left: 5.46rem;
+  }
+}
+@keyframes gz4 {
+  0% {
+    bottom: 3.52rem;
+    left: 5.5rem;
+  }
+  20% {
+    bottom: 2.99rem;
+    left: 5.05rem;
+  }
+  70% {
+    bottom: 2.36rem;
+    left: 4rem;
+  }
+  100% {
+    bottom: 3.06rem;
+    left: 3.23rem;
+  }
+}
+@keyframes gz44 {
+  0% {
+    bottom: 3.06rem;
+    left: 3.23rem;
+  }
+  100% {
+    bottom: 3.06rem;
+    left: 3.23rem;
+  }
+}
+@keyframes tp {
+  0% {
+    transform: translateY(10rem);
+  }
+  80% {
+    transform: translateY(-0.3rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+@keyframes ph {
+  0% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-0.2rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+@keyframes cl {
+  0% {
+    transform: translateY(0rem);
+  }
+  20% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(-14.5rem);
+  }
+}
+@keyframes cll {
+  0% {
+    bottom: 3.06rem;
+  }
+  5% {
+    bottom: 2.18rem;
+  }
+  100% {
+    bottom: 17.5rem;
+  }
+}
+@keyframes ir {
+  0% {
+    transform: scale(0.1);
+    border: 0.1rem solid aliceblue;
+  }
+  50% {
+    transform: scale(1);
+    border: 0.02rem solid aliceblue;
+  }
+  100% {
+    transform: scale(0.1);
+    border: 0.1rem solid aliceblue;
+  }
+}
+@keyframes bg {
+  0% {
+    bottom: 0rem;
+  }
+  100% {
+    bottom: -12.8rem;
+  }
+}
+@keyframes one {
+  0% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+@keyframes x {
+  0% {
+    left: -2rem;
+    transform: rotate(-90deg);
+  }
+  100% {
+    left: 0.44rem;
+    transform: rotate(0deg);
+  }
+}
+@keyframes y {
+  0% {
+    right: -2rem;
+    transform: rotate(90deg);
+  }
+  100% {
+    right: 0.29rem;
+    transform: rotate(0deg);
+  }
+}
+@keyframes z {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes xyz {
+  0% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}

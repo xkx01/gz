@@ -1,0 +1,1288 @@
+html {
+    font-size: calc(100vw / 720 * 100)
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+.rise {
+    animation: 3000ms forwards;
+    transform: translateY(10rem);
+}
+
+// img{
+//     user-select: none;
+// }
+.nav {
+    width: 100%;
+    height: 25.6rem;
+    background-color: aqua;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    // background-position: bottom;
+    position: fixed;
+    bottom: 0rem;
+    // bottom: -13.5rem;
+    // top: 0rem;
+    overflow: hidden;
+    animation: 3000ms forwards;
+
+    // background-attachment: scroll;
+    .roof {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+
+        .pb {
+            width: 2rem;
+            height: 0.6rem;
+            border: 0.01rem solid aliceblue;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 0.2rem;
+                height: 0.2rem;
+            }
+
+            p {
+                font-size: 0.25rem;
+                color: aliceblue;
+            }
+        }
+
+        .prize {
+            position: absolute;
+            top: 11.5rem;
+            left: 0.7rem;
+        }
+
+        .share {
+            position: absolute;
+            top: 11.5rem;
+            right: 0.7rem;
+        }
+
+        .bill {
+            position: absolute;
+            top: 0.72rem;
+            right: 0.6rem;
+            animation: 2000ms forwards;
+            transform: scale(0);
+            p {
+                margin-left: 0.2rem;
+            }
+        }
+
+        .acq {
+            width: 5rem;
+            height: 1.7rem;
+            position: absolute;
+            top: 0.87rem;
+            left: 1.3rem;
+            // transform: translateX(-50%);
+            animation: 2000ms forwards;
+            transform: scale(0);
+            p {
+                width: 3.4rem;
+                font-size: 0.3rem;
+                color: aliceblue;
+                margin: 0;
+            }
+
+            p:nth-of-type(2) {
+                font-size: 0.27rem;
+                margin-top: 0.05rem;
+
+                span {
+                    font-size: 0.4rem;
+                }
+            }
+
+            p:nth-of-type(3) {
+                width: 100%;
+                font-size: 0.2rem;
+                margin-top: 0.4rem;
+            }
+        }
+
+        .celestial1 {
+            width: 1.65rem;
+            height: 1.64rem;
+            position: absolute;
+            top: 6.5rem;
+            left: -2rem;
+            animation: 2000ms forwards;
+            transform: rotate(-90deg);
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .cel {
+                width: 1.86rem;
+                height: 0.46rem;
+                opacity: 0.3;
+                background-color: black;
+                border: 0.05rem solid rgb(207, 207, 207);
+                border-radius: 0.1rem;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                left: -0.15rem;
+                top: -1.7rem;
+
+                p {
+                    color: aliceblue;
+                    font-size: 0.25rem;
+                    margin: 0;
+                }
+            }
+
+            .chicken1 {
+                width: 0.7rem;
+                height: 1rem;
+                position: relative;
+                top: -3.85rem;
+                left: 0.5rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .celestial2 {
+            width: 2.1rem;
+            height: 2.08rem;
+            position: absolute;
+            top: 4.7rem;
+            left: 2.58rem;
+            animation: 2000ms forwards;
+            transform: scale(0);
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .cel {
+                width: 1.86rem;
+                height: 0.46rem;
+                opacity: 0.3;
+                background-color: black;
+                border: 0.05rem solid rgb(207, 207, 207);
+                border-radius: 0.1rem;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                left: 0.1rem;
+                top: -2.1rem;
+
+                p {
+                    color: aliceblue;
+                    font-size: 0.25rem;
+                    margin: 0;
+                }
+            }
+
+            .chicken2 {
+                width: 0.7rem;
+                height: 1rem;
+                position: relative;
+                top: -4.1rem;
+                left: 0.7rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .celestial3 {
+            width: 1.82rem;
+            height: 1.82rem;
+            position: absolute;
+            top: 6rem;
+            right: -2rem;
+            // right: 0.5rem;
+            animation: 2000ms forwards;
+            transform: rotate(90deg);
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .cel {
+                width: 1.86rem;
+                height: 0.46rem;
+                opacity: 0.3;
+                background-color: black;
+                border: 0.05rem solid rgb(207, 207, 207);
+                border-radius: 0.1rem;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                left: -0.07rem;
+                top: -1.8rem;
+
+                p {
+                    color: aliceblue;
+                    font-size: 0.25rem;
+                    margin: 0;
+                }
+            }
+
+            .chicken3 {
+                width: 0.7rem;
+                height: 1rem;
+                position: relative;
+                top: -3.85rem;
+                left: 0.55rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+    }
+
+    .big {
+        width: 100%;
+        height: 13.5rem;
+        // background-image: url(../img/backgrount.jpg);
+        // background-repeat: no-repeat;
+        // background-size: 100%;
+        // background-position: bottom;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        // overflow: hidden;
+
+        .meg {
+            width: 100%;
+            height: 3rem;
+            position: absolute;
+            bottom: 4.5rem;
+            // left: 50%;
+            animation: 1000ms linear forwards;
+            z-index: 58;
+
+            .minecraft {
+                width: 1.8rem;
+                height: 1.5rem;
+                margin: 0 auto;
+                // position: absolute;
+                // bottom: 4.5rem;
+                // left: 50%;
+                // transform: translate(-50%, 0);
+                z-index: 58;
+                // display: none;
+                opacity: 0;
+                display: none;
+                transition: 1000ms;
+
+                p {
+                    font-size: 0.3rem;
+                    color: rgb(23, 177, 177);
+                }
+            }
+
+            .arr {
+                // position: absolute;
+                width: 0.64rem;
+                margin: 0 auto;
+                // height: 0.33rem;
+                // bottom: 3.1rem;
+                // left: 50%;
+                // transform: translate(-50%, 0); // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // flex-direction: column;
+                // margin-top: 0.5rem;
+                z-index: 58;
+                line-height: 0.1rem;
+
+                .ary {
+                    width: 0.64rem;
+                    height: 0.33rem;
+                    visibility: hidden;
+                    transition: 500ms;
+                    // display: none;
+                    // display: none;
+                    // line-height: 0.1rem;
+                }
+            }
+        }
+
+        // 音乐
+        .vid {
+            display: none;
+            // position: absolute;
+            // bottom: 0;
+            // z-index: 70;
+        }
+
+        // 起点
+        .z01 {
+            width: 2rem;
+            height: 0.58rem;
+            position: absolute;
+            bottom: 0;
+            left: 2.6rem;
+            // transform: translate(-50%, 0);
+            z-index: 60;
+            animation: one 2000ms forwards;
+            transform: translateY(1rem);
+            // transform: translateY(0rem);
+            // animation:beg 3000ms linear forwards;
+        }
+
+        // 第一段路
+        .begin {
+            // display: none;
+            // animation:beg 3000ms linear forwards;
+
+            .z02 {
+                width: 1rem;
+                height: 4.04rem;
+                position: absolute;
+                bottom: -3.178rem;
+                left: 2.61rem;
+                z-index: 58;
+            }
+
+            .z03 {
+                width: 1rem;
+                height: 4.04rem;
+                position: absolute;
+                bottom: -2.896rem;
+                left: 2.123rem;
+                z-index: 56;
+            }
+
+            .z04 {
+                width: 2rem;
+                height: 5.34rem;
+                position: absolute;
+                bottom: -3.334rem;
+                left: 1.63rem;
+                z-index: 54;
+            }
+
+            .z05 {
+                width: 1.76rem;
+                height: 3.02rem;
+                position: absolute;
+                bottom: -0.3rem;
+                left: 1.387rem;
+                z-index: 52;
+            }
+
+            .z06 {
+                width: 1.76rem;
+                height: 3.02rem;
+                position: absolute;
+                bottom: 0.413rem;
+                left: 0.147rem;
+                z-index: 50;
+            }
+
+            .z07 {
+                width: 1rem;
+                height: 4.21rem;
+                position: absolute;
+                bottom: -0.06rem;
+                left: 0.9rem;
+                z-index: 48;
+            }
+
+            .z08 {
+                width: 1rem;
+                height: 3.75rem;
+                position: absolute;
+                bottom: 0.69rem;
+                left: 1.3999rem;
+                z-index: 47;
+            }
+
+        }
+
+        // 鸽子
+        .pigeon {
+            width: 0.7rem;
+            height: 1rem;
+            position: absolute;
+            bottom: 0.22rem;
+            left: 3.24rem;
+            z-index: 61;
+            // overflow: hidden;
+            animation: 3500ms linear forwards;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .ge {
+            animation: one 2000ms forwards;
+            transform: translateY(1rem);
+        }
+
+        .pig {
+            display: none;
+            width: 0.7rem;
+            height: 1rem;
+            position: absolute;
+            // bottom: 0.22rem;
+            // left: 3.24rem;
+            bottom: 3.06rem;
+            left: 3.23rem;
+            z-index: 61;
+            // overflow: hidden;
+            animation:cl 3000ms forwards;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        // 第二段路
+        .diff {
+            .z09 {
+                width: 1.26rem;
+                height: 3.45rem;
+                position: absolute;
+                bottom: 1.42rem;
+                left: 0.899rem;
+                z-index: 46;
+            }
+
+            .z10 {
+                width: 1.26rem;
+                height: 3.45rem;
+                position: absolute;
+                bottom: 1.843rem;
+                left: 1.638rem;
+                z-index: 45;
+            }
+
+            .z11 {
+                width: 1.26rem;
+                height: 3.45rem;
+                position: absolute;
+                bottom: 2.272rem;
+                left: 2.373rem;
+                z-index: 44;
+            }
+
+            .z12 {
+                width: 1.26rem;
+                height: 3.45rem;
+                position: absolute;
+                bottom: 2.6993rem;
+                left: 3.11rem;
+                z-index: 43;
+            }
+
+            .z13 {
+                width: 1rem;
+                height: 3.75rem;
+                position: absolute;
+                bottom: 2.686rem;
+                left: 3.864rem;
+                z-index: 42;
+            }
+        }
+
+        // 第三段路
+        .par {
+            .z14 {
+                width: 1rem;
+                height: 1.45rem;
+                position: absolute;
+                bottom: 4.69rem;
+                left: 4.36rem;
+                z-index: 42;
+            }
+
+            .z15 {
+                width: 2rem;
+                height: 5.34rem;
+                position: absolute;
+                bottom: -0.06rem;
+                left: 3.86rem;
+                z-index: 43;
+            }
+
+            .z16 {
+                width: 1rem;
+                height: 4.04rem;
+                position: absolute;
+                bottom: 0.389rem;
+                left: 4.339rem;
+                z-index: 44;
+            }
+
+            .z17 {
+                width: 1rem;
+                height: 4.04rem;
+                position: absolute;
+                bottom: 0.106976rem;
+                left: 4.827rem;
+                z-index: 45;
+            }
+
+            .z18 {
+                width: 1rem;
+                height: 3.75rem;
+                position: absolute;
+                bottom: 0.12rem;
+                left: 5.326rem;
+                z-index: 46;
+            }
+
+        }
+
+        // 最后一段路
+        .last {
+            .z19 {
+                width: 0.76rem;
+                height: 0.8rem;
+                position: absolute;
+                bottom: 2.776rem;
+                left: 5.08rem;
+                z-index: 47;
+            }
+
+            .z20 {
+                width: 1.26rem;
+                height: 3.45rem;
+                position: absolute;
+                bottom: -0.316rem;
+                left: 4.3364rem;
+                z-index: 48;
+            }
+
+            .z21 {
+                width: 1.26rem;
+                height: 3.02rem;
+                position: absolute;
+                bottom: 0.125rem;
+                right: 2.347rem;
+                z-index: 49;
+            }
+
+            .z22 {
+                width: 1rem;
+                height: 5.27rem;
+                position: absolute;
+                bottom: -1.85rem;
+                right: 3.1rem;
+                z-index: 48;
+                animation: 3000ms forwards;
+                // animation:3000 forwards;
+                // transform: translateY(0rem);
+            }
+        }
+
+        // 金币和柱子
+        .money {
+            display: none;
+
+            .z23 {
+                width: 1.26rem;
+                height: 4.21rem;
+                position: absolute;
+                bottom: 0.22rem;
+                right: 0.129rem;
+                z-index: 45;
+                animation: tp 2000ms forwards;
+                transform: translateY(10rem);
+            }
+
+            .z32 {
+                width: 0.6rem;
+                height: 0.84rem;
+                position: absolute;
+                bottom: 4.22rem;
+                right: 0.55rem;
+                z-index: 45;
+                animation: tp 2000ms forwards;
+                transform: translateY(10rem);
+            }
+        }
+
+        // 建筑
+        .build {
+            // display: none;
+
+            .z24 {
+                // display: none;
+                width: 1rem;
+                height: 3.2rem;
+                position: absolute;
+                bottom: -0.6rem;
+                right: -0.33rem;
+                z-index: 45;
+                animation: 1000ms forwards;
+                transform: translateY(10rem);
+                // animation: 4000ms linear forwards;
+            }
+
+            .z25 {
+                width: 1.5rem;
+                height: 6.34rem;
+                position: absolute;
+                bottom: 1.44rem;
+                right: 0.16rem;
+                z-index: 41;
+                animation: 1000ms forwards;
+                transform: translateY(10rem);
+            }
+
+            .z28 {
+                width: 2.5rem;
+                height: 5.71rem;
+                position: absolute;
+                bottom: 2.05rem;
+                left: 1.16rem;
+                z-index: 40;
+                animation: 1000ms forwards;
+                transform: translateY(10rem);
+            }
+
+            .z29 {
+                width: 1.63rem;
+                height: 4.61rem;
+                position: absolute;
+                bottom: 0.66rem;
+                left: 2.16rem;
+                z-index: 46;
+                animation: 1000ms forwards;
+                transform: translateY(10rem);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+
+        // 电话和柱子
+        .phone {
+            display: none;
+
+            .z27 {
+                width: 1rem;
+                height: 3.46rem;
+                position: absolute;
+                bottom: 1.844rem;
+                left: 0.41rem;
+                z-index: 41;
+                animation: tp 2000ms forwards;
+                transform: translateY(10rem);
+            }
+
+            .z30 {
+                width: 0.68rem;
+                height: 0.66rem;
+                position: absolute;
+                bottom: 5.26rem;
+                left: 0.6rem;
+                z-index: 45;
+                animation: tp 2000ms forwards;
+                transform: translateY(10rem);
+            }
+        }
+
+        // WIFT和柱子
+        .wift {
+            display: none;
+
+            .z26 {
+                width: 1rem;
+                height: 3.46rem;
+                position: absolute;
+                bottom: 3.55rem;
+                right: 1.84rem;
+                z-index: 41;
+                animation: tp 2000ms forwards;
+                transform: translateY(10rem);
+            }
+
+            .z31 {
+                width: 0.82rem;
+                height: 0.73rem;
+                position: absolute;
+                bottom: 6.86rem;
+                right: 1.9rem;
+                z-index: 45;
+                animation: tp 2000ms forwards;
+                transform: translateY(10rem);
+            }
+        }
+
+        // 光圈
+        .iris1 {
+            // visibility: hidden;
+            // display: none;
+            width: 0.6rem;
+            height: 0.6rem;
+            border-radius: 50%;
+            // border: 0.02rem solid aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: ir 1800ms linear infinite;
+        }
+
+        // 光圈定位
+        .pos {
+            display: none;
+            position: absolute;
+            bottom: 3.78rem;
+            left: 1.52rem;
+            z-index: 60;
+        }
+
+        .pos1 {
+            display: none;
+            position: absolute;
+            bottom: 5.77rem;
+            right: 2.45rem;
+            z-index: 60;
+        }
+
+        .pos2 {
+            display: none;
+            position: absolute;
+            bottom: 3.23rem;
+            right: 1rem;
+            z-index: 60;
+        }
+
+        .pos3 {
+            display: none;
+            position: absolute;
+            bottom: 2.8rem;
+            right: 3.24rem;
+            z-index: 60;
+        }
+
+        // background-color: aliceblue;
+    }
+}
+
+
+// <!-- 山 -->
+.z33 {
+    width: 100%;
+    height: 1.31rem;
+    position: absolute;
+    bottom: 6.7rem;
+    // right: 0.55rem;
+    z-index: 39;
+    opacity: 0;
+    user-select: none;
+}
+
+// 云
+.z34 {
+    width: 100%;
+    height: 2.4rem;
+    position: absolute;
+    bottom: 0rem;
+    // right: 0.55rem;
+    z-index: 50;
+    opacity: 0;
+}
+
+.z35 {
+    width: 100%;
+    height: 4.8rem;
+    position: absolute;
+    bottom: 3.2rem;
+    // right: 0.55rem;
+    z-index: 39;
+    opacity: 0;
+}
+
+.z36 {
+    width: 100%;
+    height: 5.74rem;
+    position: absolute;
+    bottom: 0rem;
+    // right: 0.55rem;
+    z-index: 39;
+    opacity: 0;
+}
+
+// 上方手机内容
+.content {
+    // display: none;
+    width: 100%;
+    height: 4.65rem;
+    position: absolute;
+    bottom: 8rem;
+    background-image: url(../img/top.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    opacity: 0;
+
+    .step {
+        // display: none;
+        width: 4.24rem;
+        height: 1.28rem;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 1rem 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .become {
+        // display: none;
+        width: 5rem;
+        margin: 0.8rem auto;
+
+        p {
+            font-size: 0.35rem;
+            margin: 0;
+            color: aliceblue;
+        }
+
+        p:nth-of-type(3) {
+            float: right;
+            margin-top: 0.5rem;
+            font-size: 0.3rem;
+        }
+
+    }
+
+    .grade {
+        // display: none;
+        width: 5rem;
+        margin: 0.8rem auto;
+
+        p {
+            font-size: 0.3rem;
+            font-weight: bold;
+            margin: 0;
+            color: aliceblue;
+        }
+
+        p:nth-of-type(3) {
+            float: right;
+            font-weight: normal;
+            margin-top: 0.5rem;
+            font-size: 0.28rem;
+        }
+    }
+
+    .busin {
+        // display: none;
+        width: 5rem;
+        margin: 0.8rem auto;
+
+        p {
+            font-size: 0.3rem;
+            font-weight: bold;
+            margin: 0;
+            color: aliceblue;
+            line-height: 0.5rem;
+        }
+
+        p:nth-of-type(4) {
+            // float: right;
+            font-weight: normal;
+            // margin-top: 0.5rem;
+            font-size: 0.28rem;
+        }
+
+    }
+
+    .exchange {
+        // display: none;
+        width: 5rem;
+        margin: 0.8rem auto;
+
+        p {
+            font-size: 0.3rem;
+            font-weight: bold;
+            margin: 0;
+            color: aliceblue;
+            // line-height: 0.5rem;
+        }
+
+        p:nth-of-type(3) {
+            // float: right;
+            font-weight: normal;
+            margin-top: 0.5rem;
+            font-size: 0.28rem;
+        }
+
+    }
+}
+
+.a {
+    width: 0.68rem;
+    height: 0.66rem;
+    position: absolute;
+    bottom: 5.26rem;
+    left: 0.6rem;
+    z-index: 45;
+    animation: ph 2000ms infinite;
+    // transform: translateY(10rem);
+}
+
+.b {
+    width: 0.82rem;
+    height: 0.73rem;
+    position: absolute;
+    bottom: 6.86rem;
+    right: 1.9rem;
+    z-index: 45;
+    animation: ph 2000ms infinite;
+    // transform: translateY(10rem);
+}
+
+.c {
+    width: 0.6rem;
+    height: 0.84rem;
+    position: absolute;
+    bottom: 4.22rem;
+    right: 0.55rem;
+    z-index: 45;
+    animation: ph 2000ms infinite;
+    // transform: translateY(10rem);
+}
+
+// }
+// 鸽子动画
+@keyframes gz1 {
+    0% {
+        bottom: 0.22rem;
+        left: 3.24rem;
+    }
+
+    20% {
+        bottom: 1.07rem;
+        left: 1.81rem;
+    }
+
+    40% {
+        bottom: 1.64rem;
+        left: 2.74rem;
+    }
+
+    80% {
+        bottom: 2.9rem;
+        left: 0.59rem;
+    }
+
+    100% {
+        bottom: 4.06rem;
+        left: 1.55rem;
+    }
+
+}
+
+@keyframes gz11 {
+    0% {
+        bottom: 4.06rem;
+        left: 1.55rem;
+    }
+
+    100% {
+        bottom: 4.06rem;
+        left: 1.55rem;
+    }
+}
+
+@keyframes gz2 {
+    0% {
+        bottom: 4.06rem;
+        left: 1.55rem;
+    }
+
+    10% {
+        bottom: 4.38rem;
+        left: 1.06rem;
+    }
+
+    100% {
+        bottom: 6.09rem;
+        left: 4rem;
+    }
+
+}
+
+@keyframes gz22 {
+    0% {
+        bottom: 6.09rem;
+        left: 4rem;
+    }
+
+    100% {
+        bottom: 6.09rem;
+        left: 4rem;
+    }
+}
+
+@keyframes gz3 {
+    0% {
+        bottom: 6.09rem;
+        left: 4rem;
+    }
+
+    30% {
+        bottom: 4.92rem;
+        left: 4.95rem;
+    }
+
+    60% {
+        bottom: 4.36rem;
+        left: 4.02rem;
+    }
+
+    100% {
+        bottom: 3.52rem;
+        left: 5.46rem;
+    }
+
+}
+
+@keyframes gz33 {
+    0% {
+        bottom: 3.52rem;
+        left: 5.46rem;
+    }
+
+    100% {
+        bottom: 3.52rem;
+        left: 5.46rem;
+    }
+
+}
+
+@keyframes gz4 {
+    0% {
+        bottom: 3.52rem;
+        left: 5.5rem;
+    }
+
+    20% {
+        bottom: 2.99rem;
+        left: 5.05rem;
+    }
+
+    70% {
+        bottom: 2.36rem;
+        left: 4rem;
+    }
+
+    100% {
+        bottom: 3.06rem;
+        left: 3.23rem;
+    }
+
+}
+
+@keyframes gz44 {
+    0% {
+        bottom: 3.06rem;
+        left: 3.23rem;
+    }
+
+    100% {
+        bottom: 3.06rem;
+        left: 3.23rem;
+    }
+
+}
+
+// @keyframes me {
+//     0% {
+//         transform: translateY(0rem);
+//     }
+
+//     100% {
+//         transform: translateY(3rem);
+//         // display: none;
+//     }
+// }
+
+@keyframes tp {
+    0% {
+        transform: translateY(10rem);
+    }
+
+    80% {
+        transform: translateY(-0.3rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes ph {
+    0% {
+        transform: translateY(0rem);
+    }
+
+    50% {
+        transform: translateY(-0.2rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes cl {
+    0% {
+        transform: translateY(0rem);
+    }
+    20%{
+        transform: translateY(1rem);
+    }
+
+    // 50%{
+    //     transform: translateY(-5rem);
+    // }
+    100% {
+        transform: translateY(-14.5rem);
+    }
+}
+
+@keyframes cll {
+    0% {
+        bottom: 3.06rem;
+    }
+    5%{
+        bottom:2.18rem;
+    }
+    100% {
+        bottom: 17.5rem;
+    }
+}
+
+
+@keyframes ir {
+    0% {
+        transform: scale(0.1);
+        border: 0.1rem solid aliceblue;
+    }
+
+    50% {
+        transform: scale(1);
+        border: 0.02rem solid aliceblue;
+    }
+
+    100% {
+        transform: scale(0.1);
+        border: 0.1rem solid aliceblue;
+    }
+}
+
+@keyframes bg {
+    0% {
+        bottom: 0rem;
+    }
+    100% {
+        bottom: -12.80rem;
+    }
+}
+
+@keyframes one {
+    0% {
+        transform: translateY(1rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes x {
+    0% {
+        // bottom
+        // transform: translateX(-3rem);
+        left: -2rem;
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        // transform: translateX(0rem);
+        left: 0.44rem;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes y {
+    0% {
+        // bottom
+        // transform: translateX(-3rem);
+        right: -2rem;
+        transform: rotate(90deg);
+    }
+
+    100% {
+        // transform: translateX(0rem);
+        right: 0.29rem;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes z {
+    0% {
+        // opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes xyz {
+    0% {
+        // opacity: 0;
+        transform: translateY(0rem);
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+}
